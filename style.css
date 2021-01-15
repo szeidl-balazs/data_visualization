@@ -1,0 +1,76 @@
+*, 
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bar {
+	fill: blue;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	width: 900px;
+	height: 900px;
+	border: 1px solid black;
+	background: linear-gradient(to bottom, #33ccff 0%, #ffa299 100%);
+}
+
+.bar:hover {
+	fill: rgb(111, 111, 255);
+}
+
+.wrapper {
+	position: relative;
+	padding-top: 65px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+h1 {
+	padding-bottom: 30px;
+}
+
+#root {
+	position: absolute;
+	width: 120%;
+	height: 150%;
+	background: linear-gradient(to bottom, #ffd1c9 0%, #c6ddff 100%);
+}
+
+#seriesValue {
+	position: absolute;
+	top: 150px;
+	left: 25px;
+	font-size: 1.7em;
+}
+
+pre#hText {
+	position: absolute;
+	top: 1050px;
+	font-size: 1.5em;
+	left: -10%;
+}
+
+pre#vText {
+	position: absolute;
+	top: 85px;
+	left: 70%;
+	font-size: 1.5em;
+	line-height: 5.1em;
+}
+
+div#headCount {
+	position: absolute;
+	top: 80px;
+	right: -90px;
+	font-size: 1.5em;
+}
