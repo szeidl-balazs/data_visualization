@@ -100,19 +100,5 @@ function loader() {
 
 	});
 
-	/*
-	let _weightSeries = document.querySelector('#weightSeries');
-	let _seriesValue = document.querySelector('#seriesValue');
-	let _rectBar = document.querySelectorAll(".bar");
-	console.log(_rectBar);
-	_rectBar.addEventListener('mouseover', displaySeries);
-
-
-	function displaySeries() {
-		if (_rectBar.getAttribute("height") == 100) {
-			console.log("100");
-		}
-	}
-	*/
 }
 window.addEventListener('load', loader);
